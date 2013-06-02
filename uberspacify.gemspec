@@ -23,7 +23,7 @@ Gem::Specification.new do |gem|
   
   # dependencies for passenger on Uberspace
   gem.add_dependency 'passenger',         '>=3.0.15'
-  gem.add_dependency 'rack',              '>=1.4.1'
+  gem.add_dependency 'rack',              '>=1.3.5'
   gem.add_dependency 'daemon_controller', '>=1.0.0'
   
   # dependency for mysql on Uberspace
